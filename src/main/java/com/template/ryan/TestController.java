@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @RequestMapping(value = "/aa", method = RequestMethod.GET)
+    @RequestMapping(value = "/aa", method = RequestMethod.POST)
     public String hello() {
         return "Hello! Docker!";
     }
