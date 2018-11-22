@@ -1,4 +1,4 @@
-package com.template.ryan;
+package com.template.ryan.build;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
